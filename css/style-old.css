@@ -30,7 +30,7 @@ li{
 
 nav{
     display: flex;
-    padding: 25px 45px 0 45px;
+    padding: 0 45px;
 }
 .logo{
     width:50%;
@@ -101,7 +101,6 @@ header{
     text-align: center;
     color:#ffffff;
     margin-bottom: 40px;
-    margin-top:50px;
 }
 .hero-content p{
     font-family: 'Ubuntu';
@@ -112,7 +111,6 @@ header{
     display: flex;
     justify-content: center;
     color: #ffffff;
-    margin-bottom: 92px;
 
 
 }
@@ -249,15 +247,11 @@ header{
     justify-content: space-between;   
    
   }
-  .explore-section .card img{
-    width:100%;
-  }
 .card{
-    width:48%;
+    width:50%;
     position: relative;
     margin-bottom: 85px;
 }
-
 
 .explore-section .card-info{
     width:424px;
@@ -312,7 +306,6 @@ header{
 }
 .about-section{
     display: flex;
-    justify-content: space-between;
 }
 .about-section card svg{
     width:100%;
@@ -320,7 +313,6 @@ header{
 .about-section .card-info p{
     font-size: 14px;
     font-weight: 300;
-    margin-top: 13px;
 }
 
 .about-section-left{
@@ -330,15 +322,15 @@ header{
 
 }
 .about-section-right{
-    width:50%;
+    width:55%;
     display: flex;
     flex-direction: column;
 
 }
-.about-section .card img{   
+.about-section .card img{
+    width: 100%;
     height: auto;
-    width:100%;
-    }
+}
 
    
 .w-100{
@@ -383,12 +375,10 @@ header{
 /* media query */
 
 @media only screen and (max-width: 768px) {
-    .main-container{        
-        width:100%;       
-    }
-    .container-head{
-        height:100vh;
-        background-size: cover;
+    .main-container{  
+      
+        width:100%;
+       
     }
     .burgr-menu{
         display: block;
@@ -433,9 +423,7 @@ header{
     font-size: 52px;
     line-height: 60px;
     margin-top: 78px; 
-    margin-bottom: 0; 
-    display: flex;
-    justify-content: center;  
+    margin-bottom: 0;   
    }
    .hero-content p{
     font-size: 20px;
@@ -445,7 +433,7 @@ header{
    }
    .hero-content{
     width:100%;
-   
+    position: initial; 
    }
   
 }
